@@ -1,0 +1,52 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:#1e2d3c ;
+}
+/*heder*/
+header{
+    background-color: #2f3a47;
+    padding: 10px 20px;
+}
+.headerImage{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/*contenitore card*/
+.container-card{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #1e2d3c;
+    padding: 10px 200px;
+}
+/*card*/
+.card{
+    margin-top: 20px;
+    background-color: #2f3a47;
+    width: calc(96% / 3);
+    text-align: center;
+    padding: 10px;
+}
+.image{
+    width: 100%;
+    padding: 15px;
+}
+h2{
+    color: white;
+    margin-bottom: 10px;
+}
+h3,
+h4{
+    color: #7f807b;
+}
+
