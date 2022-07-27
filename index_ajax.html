@@ -21,6 +21,16 @@ aggiunta: creazione file html
     <div id="root">
         <header>
         <img class="headerImage" src="./css/download.png" alt="logo">
+        <!--Introduco la select con il 
+            v-model per poterli passare la variabile get diferita al genere
+            @change collego il cambiamento di valore del genre con la function per la chimata api-->
+        <select v-model="userGender" @change="getDatabaseApi" >
+            <option value="all">All</option>
+            <option value="Rock">Rock</option>
+            <option value="Jazz">Jazz</option>
+            <option value="Metal">Metal</option>
+            <option value="Pop">Pop</option>
+        </select>
         </header>
         <main class="container-card">
             <!--Imposto ciclo v-for-->
