@@ -25,7 +25,7 @@ aggiunta: creazione file html
         <main class="container-card">
             <!--Imposto ciclo v-for-->
             <div v-for= " data in database "  class="card">
-                <!--Passaggio dinamico-->
+                <!--Passaggio dinamico utilizzo v-bind-->
                 <img class="image" :src="data.poster" alt="">
                 <h2>{{ data.title }}</h2>
                 <h3>{{ data.author }}</h3>
